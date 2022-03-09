@@ -50,15 +50,15 @@ a{
    transition: 100ms;
 }
 
-/*##### Conteudo principal #####*/
 
+/*###################### Conteudo principal ######################*/
 .conteudo-principal{
    color: #F9F9F9;
    width: 90%;
    margin: 8% auto;
 }
 
-.container-um{
+.conteudo-principal .container{
    display:flex;
    justify-content: space-between;
    margin: 5% auto;
@@ -66,7 +66,6 @@ a{
 
 .apresentacao{
    width: 27%;
-   font-family: 'DM Sans', sans-serif;
 }
 
 .titulo-principal{
@@ -119,15 +118,14 @@ a{
    background-color: #5eade2;
    transition: 450ms;
    cursor: pointer;
- }
+}
 
 .ilustracao-principal{
    width: 35%;
 }
 
-/* ########### Sobre mim ########## */ 
 
-
+/* ###################### Sobre mim ##################### */ 
 .sobre-mim{
    width: 50%;
    text-align: center;
@@ -145,9 +143,8 @@ a{
    line-height: 1.4em;
 }
 
-/* ########### Icones de Contato ########## */
 
-
+/*###################### Icones de Contato ###################### */
 .conteudo-icon{
    display: flex;
    width: 70%;
@@ -168,7 +165,6 @@ a{
    cursor: pointer;
    transition: 700ms;
    box-shadow: 0px 0px 5px #0086dfa8;
-   
 }
 
 .titulo-card{
@@ -187,20 +183,18 @@ a{
 }
 
 
-/* ########### Projetos ########## */
-
-
+/* ###################### Projetos ###################### */
 .conteudo-projetos{
    width: 90%;
    margin: 5% auto;
 }
 
-.container-projetos{
+.conteudo-projetos .container{
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
    flex-direction: row;
-   margin: 2% auto;
+   row-gap: 25px;
 }
 
 .titulo-principal-projetos{
@@ -257,14 +251,13 @@ a{
 }
 
 
-/* ######## Academico ######### */
-
+/* ###################### Academico ###################### */
 .conteudo-academico{
    width: 90%;
    margin: 0 auto;
 }
 
-.container-academico{
+.conteudo-academico .container{
    display: flex;
    justify-content: space-evenly;
 }
@@ -284,7 +277,7 @@ a{
    outline: #333333 solid 1px;
    border-bottom: 4px solid #212121;
    font-size: 15px;
-
+   
 }
 
 .titulo-card-academico{
@@ -341,9 +334,7 @@ a{
 }
 
 
-
-/* ######## Rodape ######### */
-
+/* ###################### Rodape ###################### */
 .rodape{
    width: 100%;
    height: 25px;
