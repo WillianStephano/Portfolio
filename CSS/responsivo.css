@@ -32,8 +32,16 @@
       row-gap: 30px;
    }
 
+   .card-academico{
+      width: 100%;
+   }
+
    .bt-academico{
       margin: 15% 0;
       font-size: 14px;
+   }
+
+   .bt-certificados{
+      padding: 2% 5%;
    }
 }
