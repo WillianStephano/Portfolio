@@ -1,0 +1,39 @@
+@media (max-width:425px) {
+   .cabecalho{
+      display: none;
+   }
+
+   .info .container{
+      flex-direction: column;
+      row-gap: 30px;
+      width: 100%;
+   }
+
+   .apresentacao, .ilustracao-principal,
+   .sobre-mim{
+      width: 100%;
+      text-align: center;
+   }
+
+   .conteudo-icon{
+      flex-direction: column;
+   }
+
+   .conteudo-projetos .container{
+      flex-direction: column;
+   }
+
+   .link-projeto{
+      width: 100%;
+   }
+
+   .conteudo-academico .container{
+      flex-direction: column;
+      row-gap: 30px;
+   }
+
+   .bt-academico{
+      margin: 15% 0;
+      font-size: 14px;
+   }
+}

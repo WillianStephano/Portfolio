@@ -52,13 +52,13 @@ a{
 
 
 /*###################### Conteudo principal ######################*/
-.conteudo-principal{
+.info{
    color: #F9F9F9;
    width: 90%;
    margin: 8% auto;
 }
 
-.conteudo-principal .container{
+.info .container{
    display:flex;
    justify-content: space-between;
    margin: 5% auto;
@@ -136,6 +136,7 @@ a{
    font-size: 30px;
    line-height: 1.8em;
    font-weight: bold;
+   color: #ffffff;
 }
 
 .texto-sobre-mim{
@@ -187,6 +188,7 @@ a{
 .conteudo-projetos{
    width: 90%;
    margin: 5% auto;
+   color: #ffffff;
 }
 
 .conteudo-projetos .container{
@@ -255,6 +257,7 @@ a{
 .conteudo-academico{
    width: 90%;
    margin: 0 auto;
+   color: #ffffff;
 }
 
 .conteudo-academico .container{
@@ -315,7 +318,7 @@ a{
 
 .bt-academico{
    width: 100%;
-   margin-top: 6%;
+   margin: 8% 0;
    text-align: center;
 }
 
@@ -324,7 +327,7 @@ a{
    align-items: center;
    color: #ffffff;
    background-color: #0086df;
-   padding: 15px 30px;
+   padding: 2% 8%;
    border-radius: 5px;
 }
 
