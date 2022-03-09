@@ -2,46 +2,47 @@
    .cabecalho{
       display: none;
    }
-
+   
    .info .container{
       flex-direction: column;
       row-gap: 30px;
       width: 100%;
    }
-
+   
    .apresentacao, .ilustracao-principal,
    .sobre-mim{
       width: 100%;
       text-align: center;
    }
-
+   
    .conteudo-icon{
       flex-direction: column;
    }
-
+   
    .conteudo-projetos .container{
       flex-direction: column;
    }
-
+   
    .link-projeto{
       width: 100%;
    }
-
+   
    .conteudo-academico .container{
       flex-direction: column;
       row-gap: 30px;
    }
-
+   
    .card-academico{
       width: 100%;
    }
-
+   
    .bt-academico{
       margin: 15% 0;
       font-size: 14px;
    }
-
+   
    .bt-certificados{
-      padding: 2% 5%;
+      padding: 2% 3%;
+      font-size: 13px;
    }
 }
