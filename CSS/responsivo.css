@@ -12,7 +12,11 @@
    
    .menu{
       width: 90%;
-      margin: 0;
+      margin: 3% auto 0;
+   }
+
+   .menu-navegacao{
+      width: 100%;
    }
    
    .apresentacao, .ilustracao-principal,
