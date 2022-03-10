@@ -1,5 +1,18 @@
 html{
    scroll-behavior: smooth;
+   --bg:#171717;
+   --text_title: #f9f9f9;
+   --blue: #0086df;
+   --bg_card: #212121;
+   --borda_card: #383838;
+}
+
+.claro{
+   --bg:#f9f9f9;
+   --text_title: #000000;
+   --blue: #0086df;
+   --bg_card: #eeeeee;
+   --borda_card: #c0c0c0;
 }
 
 a{
@@ -7,14 +20,13 @@ a{
 }
 
 .corpo{
-   background-color: #171717;
+   background-color: var(--bg);
    font-family: 'DM Sans', sans-serif;
 }
 
 .cabecalho{
    width: 90%;
    margin: 3% auto;
-   color: #F9F9F9;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -33,6 +45,7 @@ a{
    display: flex;
    width: 300px;
    justify-content: space-between;
+   align-items: center;
 }
 
 .menu-navegacao li{
@@ -42,7 +55,7 @@ a{
 
 .link-menu-nav{
    text-decoration: none;
-   color: #F9F9F9;
+   color: var(--text_title);
 }
 
 .link-menu-nav:hover{
@@ -50,10 +63,21 @@ a{
    transition: 100ms;
 }
 
+.bt-escuro{
+   border: none;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 25px;
+   height: 30px;
+}
+
+.bt-escuro:hover{
+   cursor: pointer;
+}
+
 
 /*###################### Conteudo principal ######################*/
 .info{
-   color: #F9F9F9;
    width: 90%;
    margin: 8% auto;
 }
@@ -69,6 +93,7 @@ a{
 }
 
 .titulo-principal{
+   color: var(--text_title);
    font-size: 36px;
    font-weight: 800;
    line-height: 1.2em;
@@ -87,7 +112,7 @@ a{
 .bt-download{
    width: 40%;
    height: 40px;
-   background-color: #0086df;
+   background-color: var(--blue);
    color: #ffffff;
    border:1px solid #333333;
    font-family: 'DM Sans', sans-serif;
@@ -138,7 +163,7 @@ a{
    font-size: 30px;
    line-height: 1.8em;
    font-weight: bold;
-   color: #ffffff;
+   color: var(--text_title);
 }
 
 .texto-sobre-mim{
@@ -158,7 +183,7 @@ a{
 }
 
 .card-perfil{
-   border: 1px solid #171717;
+   border: 1px solid transparent;
    padding: 8px;
 }
 
@@ -190,7 +215,6 @@ a{
 .conteudo-projetos{
    width: 90%;
    margin: 5% auto;
-   color: #ffffff;
 }
 
 .conteudo-projetos .container{
@@ -202,6 +226,7 @@ a{
 }
 
 .titulo-principal-projetos{
+   color: var(--text_title);
    font-size: 30px;
    font-weight: 700;
    text-align: center;
@@ -216,8 +241,9 @@ a{
 }
 
 .card-projetos{
-   background-color: #212121;
-   border: 1px solid #333333;
+   background-color: var(--bg_card);
+   border: 1px solid;
+   border-color: var(--borda_card);
    margin-bottom: 3%;
 }
 
@@ -245,6 +271,7 @@ a{
    font-weight: 500;
    margin: 5% auto 0;
    width: 85%;
+   color: var(--text_title);
 }
 
 .texto-projetos{
@@ -259,7 +286,7 @@ a{
 .conteudo-academico{
    width: 90%;
    margin: 0 auto;
-   color: #ffffff;
+   color: var(--text_title);
 }
 
 .conteudo-academico .container{
@@ -278,9 +305,9 @@ a{
 .card-academico{
    width: 350px;
    height: 180px;
-   background-color: #212121;
+   background-color: var(--bg_card);
    outline: #333333 solid 1px;
-   border-bottom: 4px solid #212121;
+   border-bottom: 4px solid transparent;
    font-size: 15px;
    
 }
@@ -310,7 +337,7 @@ a{
 }
 
 .lista-de-curso li a{
-   color: #b9b9b9;
+   color: var(--text_title);
 }
 
 .lista-de-curso li a:hover{
