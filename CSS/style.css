@@ -5,6 +5,7 @@ html{
    --blue: #0086df;
    --bg_card: #212121;
    --borda_card: #383838;
+   --text_texto: #828282;
 }
 
 .claro{
@@ -13,6 +14,7 @@ html{
    --blue: #0086df;
    --bg_card: #eeeeee;
    --borda_card: #c0c0c0;
+   --text_texto: #000000;
 }
 
 a{
@@ -257,7 +259,8 @@ a{
    background-color: #171717;
    width: 80%;
    height: 130px;
-   border: 1px solid #333333;
+   border: 1px solid;
+   border-color: var(--borda_card);
    margin: 6% auto 2%;
 }
 
@@ -307,9 +310,9 @@ a{
    height: 180px;
    background-color: var(--bg_card);
    outline: #333333 solid 1px;
+   outline-color: var(--borda_card);
    border-bottom: 4px solid transparent;
    font-size: 15px;
-   
 }
 
 .titulo-card-academico{
@@ -337,11 +340,11 @@ a{
 }
 
 .lista-de-curso li a{
-   color: var(--text_title);
+   color: var(--text_texto);
 }
 
 .lista-de-curso li a:hover{
-   color: #ffffff;
+   text-decoration: underline;
    transition: 450ms;
 }
 
