@@ -40,7 +40,6 @@ a{
 }
 
 .menu{
-   margin-right: 5%;
    width: 35%;
 }
 
@@ -65,17 +64,20 @@ a{
    transition: 100ms;
 }
 
-.bt-escuro{
-   border: none;
-   background-size: contain;
-   background-repeat: no-repeat;
+.bt-tema{
    width: 25px;
    height: 30px;
 }
 
-.bt-escuro:hover{
+.bt-tema:hover{
    cursor: pointer;
 }
+
+.titulo-tema{
+   color: var(--text_title);
+   font-size: 12px;
+}
+
 
 
 /*###################### Conteudo principal ######################*/
