@@ -21,8 +21,9 @@
    
    .apresentacao, .ilustracao-principal,
    .sobre-mim{
-      width: 100%;
+      width: 90%;
       text-align: center;
+      margin: 0 auto;
    }
    
    .conteudo-icon{
