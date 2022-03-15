@@ -64,6 +64,10 @@ a{
    transition: 100ms;
 }
 
+.tema{
+   text-align: center;
+}
+
 .bt-tema{
    width: 25px;
    height: 30px;

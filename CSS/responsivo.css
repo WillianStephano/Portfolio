@@ -12,13 +12,13 @@
    
    .menu{
       width: 90%;
-      margin: 3% auto 0;
+      margin: 3% auto 2%;
    }
 
    .menu-navegacao{
       width: 100%;
    }
-   
+
    .apresentacao, .ilustracao-principal,
    .sobre-mim{
       width: 90%;
