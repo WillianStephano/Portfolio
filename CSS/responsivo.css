@@ -4,21 +4,57 @@
       width: 100%;
    }
    
+   .logo{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+   }
+   
+   .menu{
+      width: 100%;
+   }
+   
+   .menu-navegacao{
+      display: none;
+      
+   }
+   
+   .menu-navegacao.active{
+      position: absolute;
+      background-color: #ffffff;
+      display: block;
+      height: 100vh;
+      z-index: 1000;
+      width: 100%;
+   }
+   
+   .menu-navegacao li{
+      font-size: 25px;
+      padding: 5% 0;
+      font-weight: 700;
+   }
+   
+   .link-menu-nav{
+      color: var(--teste);
+   }
+   
+   .menu-navegacao li:hover{
+      background-color: #686868e8;
+   }
+   
+   #btn-mobile{
+      display: block;
+      border: none;
+      background-color: #171717;
+      border-radius: 5px;
+   }
+   
    .info .container{
       flex-direction: column;
       row-gap: 30px;
       width: 100%;
    }
    
-   .menu{
-      width: 90%;
-      margin: 3% auto 2%;
-   }
-
-   .menu-navegacao{
-      width: 100%;
-   }
-
    .apresentacao, .ilustracao-principal,
    .sobre-mim{
       width: 90%;

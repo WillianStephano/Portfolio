@@ -1,4 +1,4 @@
-html{
+:root{
    scroll-behavior: smooth;
    --bg:#171717;
    --text_title: #f9f9f9;
@@ -6,6 +6,7 @@ html{
    --bg_card: #212121;
    --borda_card: #383838;
    --text_texto: #ADADAD;
+   --teste: #000000;
 }
 
 .claro{
@@ -37,6 +38,10 @@ a{
 .titulo-cabecalho{
    font-size: 29px;
    font-weight: 700;
+}
+
+.titulo-cabecalho a{
+   color: var(--text_title);
 }
 
 .menu{
@@ -82,6 +87,9 @@ a{
    font-size: 12px;
 }
 
+#btn-mobile{
+   display: none;
+}
 
 
 /*###################### INFO ######################*/

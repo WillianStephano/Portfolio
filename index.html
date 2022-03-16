@@ -7,7 +7,7 @@
    <title>Portfólio</title>
    <link rel="shortcut icon" href="Conteudo/development.svg" type="image/x-icon">
    <meta name='viewport' content='width=device-width, initial-scale=1'>
-   <meta name="description" content="Portfólio de Willian Stephano e seus respectivos projetos.">  
+   <meta name="description" content="Portfólio de Willian Stephano e seus respectivos projetos.">
    <!-- CSS -->
    <link rel="stylesheet" href="CSS/reset.css">
    <link rel='stylesheet' type='text/css' media='screen' href='CSS/style.css'>
@@ -22,19 +22,22 @@
 <body class="corpo">
 
    <header class="cabecalho">
-      <h2 class="titulo-cabecalho"><a class="link-menu-nav" href="#">Portfólio</a></h2>
-
+      <div class="logo">
+         <h2 class="titulo-cabecalho"><a class="" href="#">Portfólio</a></h2>
+         <button id="btn-mobile" onclick="toggleMenu()"><img src="Conteudo/menu_black_24dp.svg" alt=""></button>
+      </div>
       <nav class="menu">
-         <ul class="menu-navegacao">
+         <ul class="menu-navegacao" id="teste">
             <li> <a class="link-menu-nav" href="#sobre-mim">Sobre mim</a></li>
             <li> <a class="link-menu-nav" href="#conteudo-projetos">Projetos</a></li>
             <li> <a class="link-menu-nav" href="#conteudo-academico">Acadêmico</a></li>
+            <li class="tema">
+               <img src="Conteudo/sun-shape-svgrepo-com.svg" alt="Imagem de um pequeno sol de cor laranja"
+                  onclick="escuro()" class="bt-tema" id="bt-dark-mode">
+               <p class="titulo-tema">Tema</p>
+            </li>
          </ul>
       </nav>
-      <div class="tema">
-        <img src="Conteudo/sun-shape-svgrepo-com.svg" alt="Imagem de um pequeno sol de cor laranja" onclick="escuro()" class="bt-tema" id="bt-dark-mode">
-        <p class="titulo-tema">Tema</p>
-      </div>
    </header>
 
 
@@ -56,15 +59,16 @@
                   </a>
                </div>
             </div>
-            <img class="ilustracao-principal" src="Conteudo/undraw_programming_re_kg9v.svg" alt="Desenho de um homem de frente para tela de um computador">
+            <img class="ilustracao-principal" src="Conteudo/undraw_programming_re_kg9v.svg"
+               alt="Desenho de um homem de frente para tela de um computador">
          </div>
       </div>
 
       <section id="sobre-mim" class="sobre-mim">
          <h2 class="titulo-sobre-mim">Sobre Mim</h2>
-         <p class="texto-sobre-mim">Meu nome é Willian Stephano e iniciei meus estudos na área de desenvolvimento de forma
-            autodidata em setembro de 2021 nas tecnologias HTML, CSS e JavaScript com o principal objetivo de conquistar uma
-            oportunidade no mercado de trabalho na área de Front-end.
+         <p class="texto-sobre-mim">Meu nome é Willian Stephano e iniciei meus estudos na área de desenvolvimento de
+            forma autodidata em setembro de 2021 nas tecnologias HTML, CSS e JavaScript com o principal objetivo de
+            conquistar uma oportunidade no mercado de trabalho na área de Front-end.
          </p>
          <p class="texto-sobre-mim"> E também sou estudante do curso de bacharel e licenciatura em Filosofia, na USP-
             Universidade de São Paulo (FFLCH) desde 2018.
@@ -128,7 +132,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/Fatec-Cotia__Clone/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-fatec.png" alt="Imagem de pré-visualização do projeto Fatec Cotia">
+                     <img class="img-previa-projeto" src="Conteudo/previa-fatec.png"
+                        alt="Imagem de pré-visualização do projeto Fatec Cotia">
                   </div>
                   <h2 class="titulo-projetos">Fatec Cotia Clone</h2>
                   <p class="texto-projetos">Tecnologias: HTML, CSS e JS.</p>
@@ -139,7 +144,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/Adote-um-Amigo/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-adote.png" alt="Imagem de pré-visualização do projeto Adote um Amigo">
+                     <img class="img-previa-projeto" src="Conteudo/previa-adote.png"
+                        alt="Imagem de pré-visualização do projeto Adote um Amigo">
                   </div>
                   <h2 class="titulo-projetos">Adote um amigo</h2>
                   <p class="texto-projetos">Tecnologias: HTML, CSS e JS.</p>
@@ -150,7 +156,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/Facebook__Clone/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-facebook.png" alt="Imagem de pré-visualização do projeto Facebook">
+                     <img class="img-previa-projeto" src="Conteudo/previa-facebook.png"
+                        alt="Imagem de pré-visualização do projeto Facebook">
                   </div>
                   <h2 class="titulo-projetos">Facebook login Clone</h2>
                   <p class="texto-projetos">Tecnologias: HTML e CSS.</p>
@@ -161,7 +168,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/Cartolol__Clone/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-cartolol.png" alt="Imagem de pré-visualização do projeto Cartolol">
+                     <img class="img-previa-projeto" src="Conteudo/previa-cartolol.png"
+                        alt="Imagem de pré-visualização do projeto Cartolol">
                   </div>
                   <h2 class="titulo-projetos">Cartolol Clone</h2>
                   <p class="texto-projetos">Tecnologias: HTML e CSS.</p>
@@ -172,7 +180,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/Hotmart__Clone/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-hotmart.png" alt="Imagem de pré-visualização do projeto Hotmart">
+                     <img class="img-previa-projeto" src="Conteudo/previa-hotmart.png"
+                        alt="Imagem de pré-visualização do projeto Hotmart">
                   </div>
                   <h2 class="titulo-projetos">Hotmart Clone</h2>
                   <p class="texto-projetos">Tecnologias: HTML, CSS e JS.</p>
@@ -183,7 +192,8 @@
             <a class="link-projeto" href="https://willianstephano.github.io/NetInter/" target="blank">
                <div class="card-projetos">
                   <div class="projeto">
-                     <img class="img-previa-projeto" src="Conteudo/previa-netinter.png" alt="Imagem de pré-visualização do projeto NetInter">
+                     <img class="img-previa-projeto" src="Conteudo/previa-netinter.png"
+                        alt="Imagem de pré-visualização do projeto NetInter">
                   </div>
                   <h2 class="titulo-projetos">NetInter</h2>
                   <p class="texto-projetos">Tecnologias: HTML e CSS</p>
