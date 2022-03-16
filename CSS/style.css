@@ -84,7 +84,7 @@ a{
 
 
 
-/*###################### Conteudo principal ######################*/
+/*###################### INFO ######################*/
 .info{
    width: 90%;
    margin: 8% auto;
@@ -157,6 +157,7 @@ a{
 
 .ilustracao-principal{
    width: 35%;
+   height: fit-content;
 }
 
 
