@@ -15,8 +15,11 @@
    }
    
    .menu-navegacao{
-      display: none;
-      
+      visibility: hidden;
+      height: 0;
+      transition: 600ms;
+      overflow: hidden;
+      display: block;
    }
    
    .menu-navegacao.active{
@@ -26,6 +29,8 @@
       height: 100vh;
       z-index: 1000;
       width: 100%;
+      visibility: visible;
+      overflow-y: auto;
    }
    
    .menu-navegacao li{
