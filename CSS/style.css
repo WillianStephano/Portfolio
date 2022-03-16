@@ -14,7 +14,7 @@ html{
    --blue: #007ACC;
    --bg_card: #eeeeee;
    --borda_card: #c0c0c0;
-   --text_texto: #000000;
+   --text_texto: #3a3a3a;
 }
 
 a{
@@ -176,7 +176,7 @@ a{
 }
 
 .texto-sobre-mim{
-   color:#ADADAD;
+   color:var(--text_texto);
    line-height: 1.4em;
 }
 
@@ -211,7 +211,7 @@ a{
 
 .subtitulo-card ,.link-icon{
    font-size: 13px;
-   color:#ADADAD;
+   color:var(--text_texto);
 }
 
 .card-perfil img{
