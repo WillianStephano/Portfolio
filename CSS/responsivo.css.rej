@@ -1,0 +1,9 @@
+diff a/CSS/responsivo.css b/CSS/responsivo.css	(rejected hunks)
+@@ -49,6 +49,7 @@
+    .link-menu-nav{
+       color: var(--teste);
+       font-size: 25px;
++
+    }
+    
+    .menu-navegacao li:hover{
