@@ -57,14 +57,11 @@ a{
    align-items: center;
 }
 
-.menu-navegacao li{
-   text-align: center;
-   font-size: 16px;
-}
-
 .link-menu-nav{
    text-decoration: none;
    color: var(--text_title);
+   font-size: 16px;
+   font-weight: 600;
 }
 
 .link-menu-nav:hover{
@@ -86,7 +83,7 @@ a{
 }
 
 .titulo-tema{
-   color: var(--teste);
+   color: var(--text_title);
    font-size: 12px;
 }
 
@@ -193,7 +190,7 @@ a{
 
 
 /*###################### Icones de Contato ###################### */
-.conteudo-icon{
+.redes-sociais{
    display: flex;
    width: 70%;
    justify-content: space-between;

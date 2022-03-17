@@ -23,7 +23,7 @@
    
    .menu-navegacao{
       height: 0;
-      transition: 600ms;
+      transition: 500ms;
       overflow: hidden;
       display: block;
       z-index: 1000;
@@ -41,14 +41,15 @@
    }
    
    .menu-navegacao li{
-      font-size: 25px;
       padding: 10% 0;
       font-weight: 700;
-      
+      text-align: center;
    }
    
    .link-menu-nav{
       color: var(--teste);
+      font-size: 25px;
+
    }
    
    .menu-navegacao li:hover{
@@ -62,7 +63,13 @@
       border-radius: 5px;
       z-index: 1000;
    }
-   
+
+   .titulo-tema{
+      color: black;
+   }
+
+
+   /* ####################################### */
    .info .container{
       flex-direction: column;
       row-gap: 30px;
@@ -76,7 +83,7 @@
       margin: 0 auto;
    }
    
-   .conteudo-icon{
+   .redes-sociais{
       flex-direction: column;
    }
    

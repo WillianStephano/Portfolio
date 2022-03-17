@@ -1,6 +1,7 @@
+/* Dark mode */
 function escuro() {
    const html = document.getElementById("html");
-
+   
    html.classList.toggle("claro");
    if (html.classList.contains("claro") == true) {
       document.getElementById("bt-dark-mode").src = `Conteudo/moon.svg`;
@@ -9,7 +10,7 @@ function escuro() {
    }
 }
 
-
+/* Menu mobile */
 function toggleMenu() {
    var btnmobile = document.getElementById("btn-mobile");
    const menu = document.getElementById("teste");
