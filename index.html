@@ -22,22 +22,24 @@
 <body class="corpo">
 
    <header class="cabecalho">
-      <div class="logo">
-         <h2 class="titulo-cabecalho"><a class="" href="#">Portfólio</a></h2>
-         <button id="btn-mobile" onclick="toggleMenu()"><img src="Conteudo/menu_black_24dp.svg" alt=""></button>
+      <div class="container">
+         <div class="logo">
+            <h2 class="titulo-cabecalho"><a class="" href="#">Portfólio</a></h2>
+            <button id="btn-mobile" onclick="toggleMenu()"><img src="Conteudo/menu_black_24dp.svg" alt=""></button>
+         </div>
+         <nav class="menu">
+            <ul class="menu-navegacao" id="teste">
+               <li> <a class="link-menu-nav" href="#sobre-mim">Sobre mim</a></li>
+               <li> <a class="link-menu-nav" href="#conteudo-projetos">Projetos</a></li>
+               <li> <a class="link-menu-nav" href="#conteudo-academico">Acadêmico</a></li>
+               <li class="tema">
+                  <img src="Conteudo/sun-shape-svgrepo-com.svg" alt="Imagem de um pequeno sol de cor laranja"
+                     onclick="escuro()" class="bt-tema" id="bt-dark-mode">
+                  <p class="titulo-tema">Tema</p>
+               </li>
+            </ul>
+         </nav>
       </div>
-      <nav class="menu">
-         <ul class="menu-navegacao" id="teste">
-            <li> <a class="link-menu-nav" href="#sobre-mim">Sobre mim</a></li>
-            <li> <a class="link-menu-nav" href="#conteudo-projetos">Projetos</a></li>
-            <li> <a class="link-menu-nav" href="#conteudo-academico">Acadêmico</a></li>
-            <li class="tema">
-               <img src="Conteudo/sun-shape-svgrepo-com.svg" alt="Imagem de um pequeno sol de cor laranja"
-                  onclick="escuro()" class="bt-tema" id="bt-dark-mode">
-               <p class="titulo-tema">Tema</p>
-            </li>
-         </ul>
-      </nav>
    </header>
 
 
