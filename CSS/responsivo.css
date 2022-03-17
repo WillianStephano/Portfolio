@@ -4,30 +4,37 @@
       width: 100%;
    }
    
+   .cabecalho .container{
+      width: 100%;
+      flex-direction: column;
+   }
+   
    .logo{
       display: flex;
       justify-content: space-between;
       width: 90%;
+      order: 2;
    }
    
    .menu{
       width: 100%;
+      order: 1;
    }
    
    .menu-navegacao{
-      visibility: hidden;
       height: 0;
       transition: 600ms;
       overflow: hidden;
       display: block;
+      z-index: 1000;
    }
    
    .menu-navegacao.active{
       position: absolute;
-      background-color: #ffffff;
-      display: block;
+      background-color: #e7e7e7;
       height: 100vh;
-      z-index: 1000;
+      margin-top: -3%;
+      z-index: 90;
       width: 100%;
       visibility: visible;
       overflow-y: auto;
@@ -35,8 +42,9 @@
    
    .menu-navegacao li{
       font-size: 25px;
-      padding: 5% 0;
+      padding: 10% 0;
       font-weight: 700;
+      
    }
    
    .link-menu-nav{
@@ -52,6 +60,7 @@
       border: none;
       background-color: #171717;
       border-radius: 5px;
+      z-index: 1000;
    }
    
    .info .container{

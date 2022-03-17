@@ -30,6 +30,9 @@ a{
 .cabecalho{
    width: 90%;
    margin: 3% auto;
+}
+
+.cabecalho .container{
    display: flex;
    justify-content: space-between;
    align-items: center;
