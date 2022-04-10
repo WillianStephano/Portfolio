@@ -89,7 +89,12 @@
    
    .conteudo-projetos .container{
       flex-direction: column;
+      height: 300px;
    }
+
+   .container.container-ativo{
+      height: auto;
+   }   
    
    .link-projeto{
       width: 100%;
