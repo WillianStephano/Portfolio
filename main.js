@@ -16,3 +16,14 @@ function toggleMenu() {
    const menu = document.getElementById("teste");
    menu.classList.toggle("active");
 }
+
+/* Projetos */
+
+const container = document.querySelector('.conteudo-projetos .container')
+const btProjetos = document.querySelector('.bt_secao_projetos')
+
+btProjetos.addEventListener('click',function () {
+   container.classList.toggle('container-ativo')
+
+
+})

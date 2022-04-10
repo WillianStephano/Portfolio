@@ -232,6 +232,19 @@ a{
 .conteudo-projetos{
    width: 90%;
    margin: 5% auto;
+ 
+}
+
+.bt_secao_projetos{
+   text-align: center;
+}
+
+.bt_secao_projetos img{
+   width: 40px;
+}
+
+.bt_secao_projetos:hover{
+   cursor: pointer;
 }
 
 .conteudo-projetos .container{
@@ -240,6 +253,12 @@ a{
    flex-wrap: wrap;
    flex-direction: row;
    row-gap: 25px;
+   height: 540px;
+   overflow: hidden;
+}
+
+.container.container-ativo{
+   height: auto;
 }
 
 .titulo-principal-projetos{
