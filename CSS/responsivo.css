@@ -13,62 +13,64 @@
       display: flex;
       justify-content: space-between;
       width: 90%;
-      order: 2;
    }
    
    .menu{
       width: 100%;
-      order: 1;
+      border-top: 1px solid #e1e1e1;
+      border-bottom: 1px solid #e1e1e1;
    }
    
    .menu-navegacao{
-      height: 0;
-      transition: 500ms;
-      overflow: hidden;
-      display: block;
-      z-index: 1000;
+     visibility: hidden;
+     height: 1px;
+     overflow: hidden;
+     transition: 250ms;
+     display: flex;
+     flex-direction: column;
    }
    
    .menu-navegacao.active{
-      position: absolute;
-      background-color: #e7e7e7;
-      height: 100vh;
-      margin-top: -3%;
-      z-index: 90;
-      width: 100%;
       visibility: visible;
-      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 150px;
+      transition: 250ms;
    }
    
    .menu-navegacao li{
-      padding: 10% 0;
+      width: 100%;
       font-weight: 700;
       text-align: center;
+      padding: 1.5% 0;
+      background-color: var(--teste);
+      border-bottom: 1px solid #898989;
    }
-   
+
    .link-menu-nav{
-      color: var(--teste);
-      font-size: 25px;
+      color: var(--text_title);
+      font-size: 16px;
    }
    
    .menu-navegacao li:hover{
       background-color: #686868e8;
    }
    
-   #btn-mobile{
+   .bt-mobile{
       display: block;
       border: none;
       background-color: #171717;
       border-radius: 5px;
       z-index: 1000;
    }
-
+   
    .titulo-tema{
-      color: black;
-      font-size: 16px;
+      color: var(--text_title);
+      font-size: 15px;
    }
-
-
+   
+   
    /* ####################################### */
    .info .container{
       flex-direction: column;
@@ -91,7 +93,7 @@
       flex-direction: column;
       height: 300px;
    }
-
+   
    .container.container-ativo{
       height: auto;
    }   

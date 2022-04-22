@@ -6,7 +6,7 @@
    --bg_card: #212121;
    --borda_card: #383838;
    --text_texto: #ADADAD;
-   --teste: #000000;
+   --teste: #6a6a6a;
 }
 
 .claro{
@@ -16,6 +16,7 @@
    --bg_card: #eeeeee;
    --borda_card: #c0c0c0;
    --text_texto: #3a3a3a;
+   --teste: #e8e8e8;
 }
 
 a{
