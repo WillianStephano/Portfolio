@@ -233,18 +233,33 @@ a{
 .conteudo-projetos{
    width: 90%;
    margin: 5% auto;
- 
 }
 
 .bt_secao_projetos{
    text-align: center;
 }
 
-.bt_secao_projetos img{
-   width: 40px;
+.arrow{
+   border: solid rgb(255, 255, 255);
+   border-width: 0 6px 6px 0;
+   display: inline-block;
+   padding: 12px;
+   margin-top: 1%;
 }
 
-.bt_secao_projetos:hover{
+.down{
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   transition: 300ms;
+}
+
+.up{
+   transform: rotate(-135deg);
+   -webkit-transform: rotate(-135deg);
+   transition: 300ms;
+}
+
+.arrow:hover{
    cursor: pointer;
 }
 

@@ -27,7 +27,9 @@ btMobile.addEventListener('click',function () {
 /* Projetos */
 const container = document.querySelector('.conteudo-projetos .container')
 const btProjetos = document.querySelector('.bt_secao_projetos')
+var seta = document.querySelector('.arrow')
 
 btProjetos.addEventListener('click',function () {
    container.classList.toggle('container-ativo')
+   seta.classList.toggle('up')
 })
