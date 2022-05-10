@@ -74,8 +74,12 @@
    /* ####################################### */
    .info .container{
       flex-direction: column;
-      row-gap: 30px;
+      row-gap: 15px;
       width: 100%;
+   }
+
+   .bt-contato, .bt-download{
+     
    }
    
    .apresentacao, .ilustracao-principal,

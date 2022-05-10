@@ -122,13 +122,12 @@ a{
    font-weight: 500;
 }
 
-.botao{
+.botao-info{
    margin-top: 8%;
 }
 
 .bt-download{
-   width: 40%;
-   height: 40px;
+   padding: 10px 20px;
    background-color: var(--blue);
    color: #ffffff;
    border:1px solid #333333;
@@ -140,8 +139,7 @@ a{
 }
 
 .bt-contato{
-   width: 40%;
-   height: 40px;
+   padding: 10px 20px;
    background-color: #171717;
    color: #ffffff;
    border:1px solid #333333;
@@ -150,7 +148,6 @@ a{
    border-radius: 3px;
    min-width: fit-content;
 }
-
 
 .bt-contato:hover{
    background-color: #2e2e2e;
@@ -434,5 +431,3 @@ a{
    font-size: 13px;
    margin-top: 3px;
 }
-
-
