@@ -6,9 +6,9 @@ btTema.addEventListener('click',function () {
    
    html.classList.toggle("claro");
    if (html.classList.contains("claro") == true) {
-      document.querySelector(".bt-tema").src = `Conteudo/moon.svg`;
+      document.querySelector(".bt-tema").src = `Conteudo/Icons/moon.svg`;
    } else {
-      document.querySelector(".bt-tema").src = `Conteudo/sun-shape-svgrepo-com.svg`;
+      document.querySelector(".bt-tema").src = `Conteudo/Icons/sun-shape-svgrepo-com.svg`;
    }
 })
 
