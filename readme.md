@@ -1,11 +1,18 @@
 <h1 align="center">
-  <br>Portfólio 
+  <br>Portfólio
+  <br>
+   <a href="https://github.com/WillianStephano/PortfolioV2">
+    <b>Acesse a nova versão criada em Angular</b>
+  </a>
 </h1>
 
 <p align="center">
   <a href="https://willianstephano.github.io/Portfolio/">
     <b>🚀Acesse o projeto 🚀</b>
   </a>
+
+  <p align="center">
+ 
   
 
 <h4 align="center">
